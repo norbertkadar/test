@@ -91,8 +91,8 @@ namespace ExamenAppDotNet.Controllers
         }
 
   
-        [HttpGet("GetLogedUser")]
-        public IActionResult GetLogedUser()
+        [HttpGet("GetLoggedUser")]
+        public IActionResult GetLoggedUser()
         {
             var user = userService.GetCurrentUser(HttpContext);
 
